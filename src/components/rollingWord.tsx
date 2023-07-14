@@ -23,6 +23,11 @@ export default function RollingWord({
         <span className={`text-transparent rolling-text-outline h-[50%]`}>
           {text}
         </span>
+        {/* to give the impression of an infinite loop scrolling up, 
+        add third item of text that matches the first item
+        when animation restarts, this last item of text will be visible 
+        as keyframes shift back to start of text
+          */}
         <span className={`text-title h-[50%}]`}>{text}</span>
       </div>
     </span>
