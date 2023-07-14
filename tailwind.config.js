@@ -14,6 +14,22 @@ export default {
         border: "rgba(255, 255, 255, 0.36)",
         btnPrimary: "rgba(0, 0, 0, 0.48)",
       },
+      keyframes: {
+        scrollUp: {
+          "0%": {
+            transform: "translateY(0)",
+          },
+          "50%": {
+            transform: "translateY(-70%)",
+          },
+          "100%": {
+            transform: "translateY(-100%)",
+          },
+        },
+      },
+      animation: {
+        rollText: "scrollUp 3s ease-in-out infinite",
+      },
     },
 
     fontFamily: {
