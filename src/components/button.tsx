@@ -1,7 +1,7 @@
 type ButtonProps = {
   text: string;
   // if not declared, assume secondary button
-  primary?: string;
+  primary?: boolean;
   children?: React.ReactNode;
 };
 
