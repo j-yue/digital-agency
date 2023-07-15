@@ -27,6 +27,64 @@ export default {
         button: "1.5rem",
       },
       keyframes: {
+        // animation for blinking text
+        blinking: {
+          "0%": {
+            color: "rgba(255, 255, 255, 0.92)",
+          },
+          "50%": {
+            color: "rgba(255, 255, 255, 0.16)",
+          },
+          "100%": {
+            color: "rgba(255, 255, 255, 0.92)",
+          },
+        },
+        // animation for moving elements
+        shiftLeft: {
+          "0%": {
+            transform: "translateX(0)",
+          },
+          "50%": {
+            transform: "translateX(-1ch)",
+          },
+          "100%": {
+            transform: "translateX(0)",
+          },
+        },
+        shiftRight: {
+          "0%": {
+            transform: "translateX(0)",
+          },
+          "50%": {
+            transform: "translateX(1ch)",
+          },
+          "100%": {
+            transform: "translateX(0)",
+          },
+        },
+        shiftUp: {
+          "0%": {
+            transform: "translateY(0)",
+          },
+          "50%": {
+            transform: "translateY(-1ch)",
+          },
+          "100%": {
+            transform: "translateY(0)",
+          },
+        },
+        shiftDown: {
+          "0%": {
+            transform: "translateY(0)",
+          },
+          "50%": {
+            transform: "translateY(1ch)",
+          },
+          "100%": {
+            transform: "translateY(0)",
+          },
+        },
+        // animation for rolling text
         scrollUp: {
           "0%": {
             transform: "translateY(0)",
@@ -41,6 +99,14 @@ export default {
       },
       animation: {
         rollText: "scrollUp 3s ease-in-out infinite",
+        blinkLeft:
+          "blinking 2s ease-in-out infinite, shiftLeft 2s ease-in-out infinite",
+        blinkRight:
+          "blinking 2s ease-in-out infinite, shiftRight 2s ease-in-out infinite",
+        blinkUp:
+          "blinking 2s ease-in-out infinite, shiftUp 2s ease-in-out infinite",
+        blinkDown:
+          "blinking 2s ease-in-out infinite, shiftDown 2s ease-in-out infinite",
       },
     },
 
