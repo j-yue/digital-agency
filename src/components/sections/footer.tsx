@@ -11,9 +11,9 @@ export default function Footer() {
   return (
     <footer className="text-[.875rem] leading-[1.25rem] flex flex-col flex-nowrap justify-center items-center gap-[2rem] pt-[1.75rem] pb-[.75rem]">
       <div className="text-title flex flex-row flex-nowrap gap-[2.25rem]">
-        {[YoutubeIcon, InstagramIcon, FacebookIcon].map((icon) => {
+        {[YoutubeIcon, InstagramIcon, FacebookIcon].map((icon, index) => {
           return (
-            <a key={icon}>
+            <a key={index}>
               <Icon>{icon()}</Icon>
             </a>
           );

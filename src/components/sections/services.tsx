@@ -6,7 +6,7 @@ import data from "../../data/copy.json";
 
 export default function Services() {
   const sections = data.services.sections;
-  console.log(sections);
+
   return (
     <Section title="Services" id="services">
       {Object.values(sections).map(({ title, text }) => {

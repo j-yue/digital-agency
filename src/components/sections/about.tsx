@@ -24,9 +24,9 @@ export default function About() {
 
   return (
     <Section title={title} id="about">
-      {Object.values(subsection).map((s) => {
+      {Object.values(subsection).map((s, index) => {
         return (
-          <div className="">
+          <div className="" key={index}>
             <SubsectionTitle
               content={s.title.content}
               number={s.title.number}

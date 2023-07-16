@@ -11,9 +11,9 @@ export default function Works() {
 
   return (
     <Section title={title} id="works">
-      {Object.values(projects).map(({ title: workTitle, text, img }) => {
+      {Object.values(projects).map(({ title: workTitle, text, img }, index) => {
         return (
-          <div className="mb-[1rem]">
+          <div className="mb-[1rem]" key={index}>
             <Card styles="rounded-[1.25rem] px-[1.4rem] pt-[3.5rem]">
               <img src={`src/assets/works/${img}`} className="mb-[2rem]" />
               <div>
