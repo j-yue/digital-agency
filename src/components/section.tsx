@@ -19,7 +19,7 @@ export default function Section({
       className="min-h-screen flex flex-col flex-nowrap justify-between items-center"
     >
       <h2
-        className={`text-title text-center font-bold capitalize ${
+        className={`text-title text-center font-bold capitalize pb-[3.5rem] ${
           hideTitle ? "hidden" : ""
         }`}
       >

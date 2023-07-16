@@ -2,11 +2,19 @@
 
 type GradientTextProps = {
   children: React.ReactNode;
+  bold?: boolean;
 };
 
-export default function GradientText({ children }: GradientTextProps) {
+export default function GradientText({
+  children,
+  bold = true,
+}: GradientTextProps) {
   return (
-    <div className="bg-gradient bg-clip-text text-transparent font-bold">
+    <div
+      className={`bg-gradient bg-clip-text text-transparent ${
+        bold ? "font-bold" : ""
+      }`}
+    >
       {children}
     </div>
   );
