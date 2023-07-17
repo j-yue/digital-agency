@@ -70,6 +70,7 @@ function MobileNav({ linkArr, visible = true, handleClick }: MobileNavProps) {
     if (visible)
       return {
         left: "0",
+        top: "0",
       };
     if (!visible)
       return {
