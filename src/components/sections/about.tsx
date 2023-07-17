@@ -14,7 +14,7 @@ function SubsectionTitle({ content, number }: SubsectionTitleProps) {
   return (
     <div className="font-bold text-title bg-bgCard flex flex-wrap flex-row items-center justify-center gap-[.5ch] w-full h-[4rem] text-[1.25rem] leading-[1.5rem] mb-[.5rem] border border-solid border-border rounded-[.625rem]">
       <GradientText>{number}</GradientText>
-      <RollingWord text={content} heightValue={1.5} heightUnit="rem" />
+      <RollingWord text={content} />
     </div>
   );
 }

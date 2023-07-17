@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <Section title="home" id="home" hideTitle={true}>
       <div className="pt-[7rem]"></div>
-      <div className="text-base flex flex-col flex-nowrap justify-center items-center text-[2rem] leading-[2.7rem]">
-        <RollingWord text="Empower Your" heightValue={2.7} heightUnit="rem" />
+      <div className="flex flex-col flex-nowrap justify-center items-center text-heroText md:text-heroTextMd lg:text-heroTextLg">
+        <RollingWord text="Empower Your" />
         <GradientText>Digital</GradientText>
-        <RollingWord text="Presence" heightValue={2.7} heightUnit="rem" />
+        <RollingWord text="Presence" />
       </div>
       <section className="text-sm text-center">{homeData.text}</section>
       <Button primary={true} text="Book a Consultant" />

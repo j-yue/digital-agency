@@ -12,6 +12,11 @@ export default {
     },
 
     extend: {
+      fontSize: {
+        heroText: ["2.2rem", "130%"],
+        heroTextMd: ["3rem", "130%"],
+        heroTextLg: ["4.5rem", "130%"],
+      },
       backgroundImage: {
         gradient: `linear-gradient(90deg, #F6AD55 0%, #FBD38D 14.58%, #9CE6B3 28.13%, #81E6D9 42.19%, #9DECF9 55.21%, #D6BCFA 68.75%, #FED7D7 83.33%, #FEB2B2 97.40%)`,
       },
@@ -97,10 +102,10 @@ export default {
             transform: "translateY(0)",
           },
           "50%": {
-            transform: "translateY(-50%)",
+            transform: "translateY(-25%)",
           },
           "100%": {
-            transform: "translateY(-100%)",
+            transform: "translateY(-50%)",
           },
         },
       },
