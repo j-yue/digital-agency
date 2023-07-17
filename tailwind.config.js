@@ -14,8 +14,11 @@ export default {
     extend: {
       fontSize: {
         heroText: ["2.2rem", "130%"],
-        heroTextMd: ["3rem", "130%"],
-        heroTextLg: ["4.5rem", "130%"],
+        heroTextMd: ["2.5rem", "130%"],
+        heroTextLg: ["3.75rem", "130%"],
+        mainTextXs: [".75rem", "1rem"],
+        mainText: [".875rem", "1.25rem"],
+        mainTextMd: ["1.125rem", "1.75rem"],
       },
       zIndex: {
         fixedNav: 2,
@@ -26,6 +29,10 @@ export default {
       },
       minWidth: {
         smallestScreen: "375px",
+      },
+      padding: {
+        heroOffset: "8.25rem",
+        navOffset: "6.125rem",
       },
       colors: {
         title: "rgba(255, 255, 255, 0.92)",
