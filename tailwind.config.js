@@ -2,6 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    spacing: {
+      footerIcon: "1.5rem",
+      footerIconXl: "2rem",
+      footerPadding: "2rem",
+    },
     borderRadius: {
       DEFAULT: ".375rem",
     },
@@ -10,7 +15,6 @@ export default {
       lg: "1440px",
       xl: "1920px",
     },
-
     extend: {
       fontSize: {
         heroText: ["2.2rem", "130%"],
@@ -33,6 +37,10 @@ export default {
       padding: {
         heroOffset: "8.25rem",
         navOffset: "6.125rem",
+      },
+      gap: {
+        footer: "2rem",
+        footerXl: "2rem",
       },
       colors: {
         title: "rgba(255, 255, 255, 0.92)",

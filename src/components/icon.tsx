@@ -5,7 +5,7 @@ type IconProps = {
 
 export default function Icon({ children }: IconProps) {
   return (
-    <div className="h-[1.5rem] w-[1.5rem] xl:h-[2rem] xl:w-[2rem] text-inherit">
+    <div className="h-footerIcon w-footerIcon xl:h-footerIconXl xl:w-footerIconXl text-inherit">
       {children}
     </div>
   );
