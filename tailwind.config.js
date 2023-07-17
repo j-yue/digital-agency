@@ -10,9 +10,13 @@ export default {
       lg: "1440px",
       xl: "1920px",
     },
+
     extend: {
       backgroundImage: {
         gradient: `linear-gradient(90deg, #F6AD55 0%, #FBD38D 14.58%, #9CE6B3 28.13%, #81E6D9 42.19%, #9DECF9 55.21%, #D6BCFA 68.75%, #FED7D7 83.33%, #FEB2B2 97.40%)`,
+      },
+      minWidth: {
+        smallestScreen: "375px",
       },
       colors: {
         title: "rgba(255, 255, 255, 0.92)",
@@ -24,8 +28,11 @@ export default {
         nav: "rgba(255, 255, 255, 0.16)",
       },
       padding: {
+        layoutSm: "1.5rem",
+        layoutMd: "6rem",
         button: "1.5rem",
       },
+
       keyframes: {
         // animation for blinking text
         blinking: {
