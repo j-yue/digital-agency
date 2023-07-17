@@ -53,7 +53,7 @@ function NavList({ linkArr, handleClick }: NavProps) {
         return (
           <li
             key={index}
-            className="bg-nav h-[3rem] w-[13.5rem] flex flex-row flex-nowrap justify-center items-center"
+            className="bg-nav h-[3rem] w-[13.45rem] lg:w-[12rem] xl:w-[13.45rem] flex flex-row flex-nowrap justify-center items-center"
           >
             <a href={url} onClick={handleClick}>
               {title}
@@ -78,7 +78,7 @@ function MobileNav({ linkArr, visible = true, handleClick }: MobileNavProps) {
   };
   return (
     <div
-      className="h-screen bg-bg fixed top-0 w-full z-10 pt-[10rem] pb-[8rem]"
+      className="h-screen bg-bg fixed top-0 w-full z-mobileNav pt-[10rem] pb-[8rem]"
       style={_style(visible)}
     >
       <CloseButton handleClick={handleClick} />
@@ -93,7 +93,7 @@ export default function Nav({ linkArr }: NavProps) {
   const handleClick = () => setToggleMenu(!toggleMenu);
 
   return (
-    <nav className="pt-[3rem] pb-[1rem] flex flex-row flex-nowrap justify-between items-center text-title">
+    <nav className="w-full fixed lg:absolute z-fixedNav bg-bg pt-[3rem] pb-[1.5rem] lg:pb-[1rem] flex flex-row flex-nowrap justify-between items-center text-title shadow-[0_3px_8px_-0_rgba(255,255,255,0.05)] mx-layoutOffsetSm px-layoutSm md:mx-layoutOffsetMd md:px-layoutMd">
       <Logo />
       <NavToggleButton handleClick={handleClick} />
       <MobileNav

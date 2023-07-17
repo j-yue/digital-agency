@@ -17,6 +17,10 @@ export default {
         heroTextMd: ["3rem", "130%"],
         heroTextLg: ["4.5rem", "130%"],
       },
+      zIndex: {
+        fixedNav: 2,
+        mobileNav: 3,
+      },
       backgroundImage: {
         gradient: `linear-gradient(90deg, #F6AD55 0%, #FBD38D 14.58%, #9CE6B3 28.13%, #81E6D9 42.19%, #9DECF9 55.21%, #D6BCFA 68.75%, #FED7D7 83.33%, #FEB2B2 97.40%)`,
       },
@@ -35,7 +39,12 @@ export default {
       padding: {
         layoutSm: "1.5rem",
         layoutMd: "6rem",
+
         button: "1.5rem",
+      },
+      margin: {
+        layoutOffsetSm: "-1.5rem",
+        layoutOffsetMd: "-6rem",
       },
 
       keyframes: {
