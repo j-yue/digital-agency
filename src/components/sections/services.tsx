@@ -12,11 +12,7 @@ export default function Services() {
       <div className="flex flex-col gap-[1rem] md:gap-[2.5rem] lg:grid lg:grid-cols-2 lg:gap-[5em]">
         {Object.values(sections).map(({ title, text }) => {
           return (
-            <Card
-              key={title}
-              styles=""
-              // styles="text-mainTextXs px-[1.3rem] py-[.8rem] mb-[1rem] rounded-card"
-            >
+            <Card key={title}>
               <GradientText bold={false}>
                 <h3
                   className="
