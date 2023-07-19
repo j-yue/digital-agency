@@ -33,19 +33,19 @@
     "title": "Services",
     "sections": {
       "design": {
-        "title": "web design",
+        "title": "WEB DESIGN",
         "text": "Our web design service focuses on creating stunning, user-friendly websites that showcase your brand and drive conversions."
       },
       "seo": {
-        "title": "seo",
+        "title": "SEO",
         "text": "Our SEO service helps you improve your website's search engine ranking and visibility, increasing organic traffic and ultimately leading to more leads and sales."
       },
       "social": {
-        "title": "social media marketing",
+        "title": "Social Media Marketing",
         "text": "Our social media marketing service leverages the power of social platforms to build your brand, engage your audience."
       },
       "content": {
-        "title": "content marketing",
+        "title": "Content Marketing",
         "text": "Our content marketing service helps you create valuable and relevant content that attracts and engages your target audience, building brand awareness and authority."
       }
     }

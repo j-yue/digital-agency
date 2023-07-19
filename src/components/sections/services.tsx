@@ -9,21 +9,29 @@ export default function Services() {
 
   return (
     <Section title="Services" id="services">
-      {Object.values(sections).map(({ title, text }) => {
-        return (
-          <Card
-            key={title}
-            styles="px-[1.3rem] py-[.8rem] mb-[1rem] rounded-[.625rem]"
-          >
-            <GradientText bold={false}>
-              <h3 className="capitalize text-[1.25rem] leadging-[150%] text-normal">
-                {title}
-              </h3>
-            </GradientText>
-            <div className="pt-[1rem] text-[.75rem] leading-[150%]">{text}</div>
-          </Card>
-        );
-      })}
+      <div className="flex flex-col gap-[1rem] md:gap-[2.5rem] lg:grid lg:grid-cols-2 lg:gap-[5em]">
+        {Object.values(sections).map(({ title, text }) => {
+          return (
+            <Card
+              key={title}
+              styles=""
+              // styles="text-mainTextXs px-[1.3rem] py-[.8rem] mb-[1rem] rounded-card"
+            >
+              <GradientText bold={false}>
+                <h3
+                  className="
+              text-cardTitle md:text-cardTitleMd xl:text-cardTitleXl
+              mb-[1rem]
+              "
+                >
+                  {title}
+                </h3>
+              </GradientText>
+              <div className="">{text}</div>
+            </Card>
+          );
+        })}{" "}
+      </div>
     </Section>
   );
 }

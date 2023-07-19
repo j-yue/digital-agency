@@ -9,6 +9,7 @@ export default {
     },
     borderRadius: {
       DEFAULT: ".375rem",
+      card: ".625rem",
     },
     screens: {
       md: "1024px",
@@ -23,6 +24,13 @@ export default {
         mainTextXs: [".75rem", "1rem"],
         mainText: [".875rem", "1.25rem"],
         mainTextMd: ["1.125rem", "1.75rem"],
+        cardTitle: ["1.25rem", "150%"],
+        cardTitleMd: ["1.875rem", "150%"],
+        cardTitleXl: ["3rem", "150%"],
+        cardText: [".75rem", "1rem"],
+        cardTextMd: [".875rem", "1.3rem"],
+        cardTextLg: ["1rem", "1.5rem"],
+        cardTextXl: ["1.25rem", "150%"],
       },
       zIndex: {
         fixedNav: 2,

@@ -18,10 +18,10 @@ export default function Section({
   return (
     <section
       id={id}
-      className={`min-h-screen flex flex-col flex-nowrap justify-between items-center ${styles}`}
+      className={`min-h-screen flex flex-col flex-nowrap justify-start items-center ${styles}`}
     >
       <h2
-        className={`text-title text-center font-bold capitalize pb-[3.5rem] ${
+        className={`text-title text-center font-bold capitalize pb-[3.5rem] md:pb-[2rem] lg:pb-[5rem] ${
           hideTitle ? "hidden" : ""
         }`}
       >
