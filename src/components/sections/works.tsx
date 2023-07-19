@@ -24,7 +24,7 @@ export default function Works() {
                 />
                 <div className="text-center">
                   <GradientText bold={false}>
-                    <h3 className="capitalize text-[1rem] leading-[150%] mb-[1rem]">
+                    <h3 className="capitalize text-[1rem] leading-[150%] mb-[1rem] text-cardTitle md:text-cardTitleMd xl:text-cardTitleXl">
                       {workTitle}
                     </h3>
                   </GradientText>
