@@ -15,17 +15,26 @@ export default function Works() {
         return (
           <div className="mb-[1rem]" key={index}>
             <Card styles="rounded-[1.25rem] px-[1.4rem] pt-[3.5rem]">
-              <img src={`src/assets/works/${img}`} className="mb-[2rem]" />
-              <div>
-                <GradientText bold={false}>
-                  <h3 className="capitalize text-[1rem] leading-[150%] mb-[1rem]">
-                    {workTitle}
-                  </h3>
-                </GradientText>
-                <p className="text-center text-[.75rem] leading-[1rem]">
-                  {text}
-                </p>
-                <ViewProjectButton />
+              <div className="grid grid-cols-1 md:grid-cols-[45%_50%] md:grid-cols-[40%_50%] justify-between items-center">
+                <img
+                  src={`src/assets/works/${img}`}
+                  className={`mb-[2rem] rounded-card ${
+                    index == 1 ? "md:order-last" : ""
+                  }`}
+                />
+                <div className="text-center">
+                  <GradientText bold={false}>
+                    <h3 className="capitalize text-[1rem] leading-[150%] mb-[1rem] text-cardTitle md:text-cardTitleMd xl:text-cardTitleXl">
+                      {workTitle}
+                    </h3>
+                  </GradientText>
+
+                  <p className="text-center">{text}</p>
+
+                  <div className="my-[3.5rem] md:my-[4.5rem] lg:my[3.5rem]">
+                    <ViewProjectButton />
+                  </div>
+                </div>
               </div>
             </Card>
           </div>
