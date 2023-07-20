@@ -32,6 +32,9 @@ export default {
         cardTextMd: [".875rem", "1.3rem"],
         cardTextLg: ["1rem", "1.5rem"],
         cardTextXl: ["1.25rem", "150%"],
+        aboutTitle: ["1.25rem", "1.5rem"],
+        aboutTitleMd: ["1.5rem", "2rem"],
+        aboutTitleLg: ["1.875rem", "120%"],
       },
       zIndex: {
         fixedNav: 2,
