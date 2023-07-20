@@ -55,7 +55,7 @@ function NavList({ linkArr, handleClick }: NavProps) {
             key={index}
             className="bg-nav h-[3rem] w-[13.45rem] lg:w-[12rem] xl:w-[13.45rem] flex flex-row flex-nowrap justify-center items-center first:lg:rounded-l-nav last:lg:rounded-r-nav"
           >
-            <a href={url} onClick={handleClick}>
+            <a href={url} onClick={handleClick} className="w-full text-center">
               {title}
             </a>
           </li>
