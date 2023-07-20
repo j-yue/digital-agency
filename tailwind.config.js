@@ -35,6 +35,9 @@ export default {
         aboutTitle: ["1.25rem", "1.5rem"],
         aboutTitleMd: ["1.5rem", "2rem"],
         aboutTitleLg: ["1.875rem", "120%"],
+        sectionTitle: ["1.25rem", "1.5rem"],
+        sectionTitleMd: ["1.875rem", "2.25rem"],
+        sectionTitleLg: ["2.25rem", "2.7rem"],
       },
       zIndex: {
         fixedNav: 2,
