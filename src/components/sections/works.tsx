@@ -40,7 +40,9 @@ export default function Works() {
           </div>
         );
       })}
-      <Button primary={false} text="View All" />
+      <div className="mt-[3rem] mb-[7rem]">
+        <Button primary={false} text="View All" />
+      </div>
     </Section>
   );
 }
