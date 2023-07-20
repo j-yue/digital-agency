@@ -19,7 +19,7 @@ function App() {
         />
       </header>
 
-      <main>
+      <main className="bg-[url('src/assets/background/home-sm.svg')] md:bg-[url('src/assets/background/home-md.svg')] lg:bg-[url('src/assets/background/home-lg.svg')] xl:bg-[url('src/assets/background/home-xl.svg')]">
         <h1 className="sr-only">Pixelate Agency Website</h1>
         <Home />
         <About />
