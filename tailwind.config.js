@@ -10,6 +10,7 @@ export default {
     borderRadius: {
       DEFAULT: ".375rem",
       card: ".625rem",
+      nav: "0.3125rem",
     },
     screens: {
       md: "1024px",
