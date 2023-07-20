@@ -58,7 +58,7 @@ export default {
         bgCard: "rgba(0, 0, 0, 0.24)",
         border: "rgba(255, 255, 255, 0.36)",
         btnPrimary: "rgba(0, 0, 0, 0.48)",
-        nav: "rgba(255, 255, 255, 0.16)",
+        nav: "#1F2125",
       },
       padding: {
         layoutSm: "1.5rem",
