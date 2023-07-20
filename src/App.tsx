@@ -19,7 +19,7 @@ function App() {
         />
       </header>
 
-      <main className="bg-[url('src/assets/background/home-sm.svg')] md:bg-[url('src/assets/background/home-md.svg')] lg:bg-[url('src/assets/background/home-lg.svg')] xl:bg-[url('src/assets/background/home-xl.svg')]">
+      <main className="flex flex-col flex-nowrap gap-[11.25rem] md:gap-[15rem] bg-[url('src/assets/background/home-sm.svg')] md:bg-[url('src/assets/background/home-md.svg')] lg:bg-[url('src/assets/background/home-lg.svg')] xl:bg-[url('src/assets/background/home-xl.svg')]">
         <h1 className="sr-only">Pixelate Agency Website</h1>
         <Home />
         <About />

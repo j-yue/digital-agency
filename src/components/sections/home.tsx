@@ -32,7 +32,7 @@ export default function Home() {
       title="home"
       id="home"
       hideTitle={true}
-      styles="pt-navOffset xl:max-w-[90%] xl:mx-auto justify-evenly"
+      styles="pt-navOffset xl:max-w-[90%] xl:mx-auto justify-evenly min-h-screen"
     >
       <HeroText />
       <p className="text-center">{text}</p>
