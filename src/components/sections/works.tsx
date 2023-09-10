@@ -17,7 +17,7 @@ export default function Works() {
             <Card styles="rounded-[1.25rem] px-[1.4rem] pt-[3.5rem]">
               <div className="grid grid-cols-1 md:grid-cols-[45%_50%] md:grid-cols-[40%_50%] justify-between items-center">
                 <img
-                  src={`src/assets/works/${img}`}
+                  src={`assets/works/${img}`}
                   className={`mb-[2rem] rounded-card ${
                     index == 1 ? "md:order-last" : ""
                   }`}
