@@ -7,7 +7,7 @@ type RollingWordProps = {
 };
 
 export default function RollingWord({ text }: RollingWordProps) {
-  const containerRef = useRef();
+  const containerRef = useRef<HTMLDivElement>(null);
   const [lineHeight, setLineHeight] = useState("");
 
   useEffect(() => {
